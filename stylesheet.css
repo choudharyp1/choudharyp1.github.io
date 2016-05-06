@@ -1,3 +1,17 @@
 #resumeTab{
-	margin-right: 50px;
+	margin-right: 20px;
+}
+
+.jumbotron{
+	padding: 200px 25px;
+}
+.container-fluid{
+	padding: 0px 25px;
+}
+
+#navm{
+	color: white;
+}
+#navm:hover{
+	color: #454749;
 }
