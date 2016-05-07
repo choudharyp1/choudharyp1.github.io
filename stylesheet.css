@@ -13,5 +13,9 @@
 	color: white;
 }
 #navm:hover{
-	color: #454749;
+	background-color: #454749;
+}
+
+.active{
+	color: #1A5276;
 }
