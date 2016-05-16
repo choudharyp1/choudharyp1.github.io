@@ -4,6 +4,7 @@ var main = function (){
 	$(".mission").hide();
 	$(".gallery").hide();
 	$(".video").hide();
+	$(".Ending").hide();
 	
 	$("#logo").click(function () {
 		$(this).animate({
@@ -22,6 +23,7 @@ var main = function (){
 			$(".mission").fadeIn(1000);
 			$(".gallery").fadeIn();
 			$(".video").fadeIn();
+			$(".Ending").fadeIn();
 		}, 1000);
 		
 	});

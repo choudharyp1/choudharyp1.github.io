@@ -92,14 +92,13 @@ p{
 	margin: 0 auto;
 	margin-top: 40px;
 	transition: 1000ms;
-	width: 100%;
+	width: 70%;
 }
 
 .slider {
   position: relative;
-  height: 980px;
+  height: 670px;
   margin-right: 40px;
-  border-bottom: 1px solid #ddd;
   text-align: center;
 }
 
@@ -118,6 +117,9 @@ p{
 	height: relative;
 }
 
+#galleryImg:hover{
+	transform: scale(1.1);
+}
 
 .slide-img {
   margin-right: 30px;
@@ -142,6 +144,8 @@ p{
 	position: static;
   text-align: center;
   margin-top: 20px;
+  margin-bottom: 30px;
+  
 }
 
 .arrow-prev {
@@ -180,5 +184,11 @@ p{
 
 .video{
 	height: 800px;
-	background-color: grey;
+	background-color: blue;	
+}
+
+/* Ending */
+.Ending{
+	height: 500px;
+	background-color: orange;
 }
