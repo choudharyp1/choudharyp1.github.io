@@ -129,7 +129,10 @@ p{
 
 @media screen and (max-width: 1000px){
 	.slider{
-		height: 600px;
+		height: 450px;
+	}
+	#galleryImg:hover{
+		transform: scale(1.2);
 	}
 }
 
