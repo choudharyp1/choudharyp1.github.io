@@ -1,111 +1,162 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-
-<link rel="stylesheet" href="./bootstrap files/bootstrap.min.css">
-<script src="./bootstrap files/jquery.min.js"></script>
-<script src="./bootstrap files/bootstrap.min.js"></script>
-
-<link rel="stylesheet" href="./CSS files/home.css">
-<script src="./Jquery files/home.js"></script>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="./bootstrap files/bootstrap.min.css">	
+  <script src="./bootstrap files/jquery.min.js"></script>
+  <link href="./fonts/font-awesome.css" rel="stylesheet">
+  <script src="./bootstrap files/bootstrap.min.js"></script>
+  <link rel= "stylesheet" href= "./CSS files/home.css">
+  <script src="./Jquery files/home.js"></script>
   
-<link rel="shortcut icon" href="./Images/Icon-60.png"/ type="image/png">
-<title>Troventi</title>
+  <link rel="shortcut icon" href="./Images/Icon-60.png"/ type="image/png">
+  <title>Troventi</title>
+  
 </head>
-<body>
 
-<nav class= "navbar navbar-fixed-top">
-	<div class= "container-fluid">
-		<div class= "navbar-header">
-			<a class="navbar-brand" id="name" href= "#">troventi</a>
-		</div>
-		<ul class= "nav navbar-nav">
-			<li class= "active"><a  id= "nn"  href= "./index.html">Home</a></li>
-			<li><a  id= "nn"  href="./About.html">About Us</a></li>
-			<li><a  id= "nn"  href="./FAQ.html">FAQs</a></li>
+<body  id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+      <a class="navbar-brand" href="#">TROVENTI</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-left">
+        <li><a href="#home">HOME</a></li>
+        <li><a href="#mission">MISSION</a></li>
+        <li><a href="#video">VIDEO</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">MORE
+            <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">FAQs</a></li>
+            <li><a href="#">Blogs</a></li> 
+          </ul>
+        </li>
 		</ul>
-		<ul class="nav navbar-nav navbar-right">
-			<li><a id= "nn" href= "resume.html">Log In</a></li>
-			<li><a id = "nn" href= "resume.html">Sign Up</a></li>
-		</ul>
-	</div>
+	  <ul class="nav navbar-nav navbar-right" style="margin-right: 0.5%;">
+        <li><a>LOG IN</a></li>
+        <li><a>SIGN UP</a></li>
+		<li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
+	  </ul>
+    </div>
+  </div>
 </nav>
 
-<div class="fluid-container logo">
-<img id="logo" src= "./Images/Troventi Logo.png" class="img-circle">
+<div id="home" class="HOME" style="background-image: url(./Images/image2.jpg);">
 </div>
 
-<div class="mission container-fluid">
-	<h1>What is our Mission?</h1>
-	<div class="container">
-		<div style= "height: 30px"></div>
-		<h2 id="center">Canada's Leading Textbook Exchange Platform</h2>
-		<div style="height: 25px"></div>
-		<p>Founded in 1899 by a group of Swiss, English and Catalan footballers led by Joan Gamper, the club has become a symbol of Catalan culture and Catalanism, hence the motto "Més que un club" (More than a club). Unlike many other football clubs, the supporters own and operate Barcelona. It is the second most valuable sports team in the world, worth $3.56 billion, and the world's second richest football club in terms of revenue, with an annual turnover of €560.8 million.[2][3] The official Barcelona anthem is the "Cant del Barça", written by Jaume Picas and Josep Maria Espinàs.</p>
-		<div style="height: 25px"></div>
-		<p>Domestically, Barcelona has won 24 La Liga, 27 Copa del Rey, 11 Supercopa de España, 3 Copa Eva Duarte and 2 Copa de la Liga trophies, as well as being the record holder for the latter four competitions. In international club football, Barcelona has won five UEFA Champions League titles, a record four UEFA Cup Winners' Cup, a shared record five UEFA Super Cup, a record three Inter-Cities Fairs Cup and a record three FIFA Club World Cup trophies.[5] Barcelona was ranked first in the IFFHS Club World Ranking for 1997, 2009, 2011, 2012 and 2015[6][7] and currently occupies the second position on the UEFA club rankings.[8] The club has a long-standing rivalry with Real Madrid; matches between the two teams are referred to as El Clásico.</p>
-		
+<div id="mission" class= "container text-center">
+  <h1>Troventi</h1>
+  <h3>The Mission</h3>
+  <p>We hope to be the leading platform that allows students to exchange textbooks. The vision is to allow exchanging pretty much anything.</p>
+  <p>Add more info here....(We can add stuff about us if we need to)</p>
+  <div class="row">
+  <br>
+	<div class= "col-sm-6">
+		<a href= "#demo" data-toggle="collapse">
+			<img class="img-circle university" src="./Images/University-of-Waterloo.png" alt="Random Name">
+		</a>
+		<div id="demo" class="collapse">
+			<p>University of Waterloo</p>
+			<p>6000 Users</p>
+		</div>
+	</div>
+	<div class= "col-sm-6">
+		<a href= "#demo1" data-toggle="collapse">
+			<img class="img-circle university" src="./Images/Wilfird-Laurier-University.png" alt="Random Name">
+		</a>
+		<div id="demo1" class="collapse">
+			<p>Wilfird Laurier University</p>
+			<p>4000 Users</p>
+		</div>
+	</div>
 	</div>
 </div>
-<div class= "gallery">
-	<div class= "container-fluid">
-	<h1>Gallery</h1>
-	</div>
-	<div class="slider">
-		<div class="slide active-slide">
-			<div class="container">
-				<div class="row">
-					<div class="slide-img col-xs-12">
-						<img id= "galleryImg" src= "./Images/image1.jpg">
-					</div>
-				</div>
-			</div>      
-		</div>
-		<div class="slide slide-feature">
-			<div class="container">
-				<div class="row">
-					<div class="slide-img col-xs-12">
-						<img id= "galleryImg" src= "./Images/image2.jpg">
-					</div>
-				</div>
-			</div>      
-		</div>
-		<div class="slide">
-			<div class="container">
-				<div class="row">
-					<div class="slide-img col-xs-12">
-						<img id= "galleryImg" src="./Images/image3.jpg">
-					</div>
-				</div>
-			</div>      
-		</div>
-		<div class="slide">
-			<div class="container">
-				<div class="row">
-					<div class="slide-img col-xs-12">
-						<img id= "galleryImg" src= "./Images/image4.jpg">
-					</div>
-				</div>
-			</div>      
-		</div>	
-	</div>	
-	<div class="slider-nav">
-      <a class="arrow-prev"><img src="./Images/arrow-prev.png"></a>
-      <ul class="slider-dots">
-        <li class="dot active-dot">&bull;</li>
-        <li class="dot">&bull;</li>
-        <li class="dot">&bull;</li>
-        <li class="dot">&bull;</li>
-      </ul>
-      <a class="arrow-next"><img src="./Images/arrow-next.png"></a>
-    </div> 
+<div id="video" class="video">
+<h1 style=" padding: 20px; margin-bottom:20px; text-align: center; color: #fff;">Watch the Video</h1>
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/OWsyrnOBsJs" frameborder="0" allowfullscreen></iframe>
+
+
+<div id="contact" class="container">
+  <h1 style="margin-top: -30px; padding: 20px;"class="text-center">Contact</h1>
+  <p style="padding: 10px "class="text-center"><em>Ask us a Question or Give us a Suggestion!</em></p>
+  <div class="row test">
+    <div class="col-md-4">
+      <p>User? Drop a note.</p>
+      <p><span class="glyphicon glyphicon-map-marker"></span>Waterloo, Canada</p>
+      <p><span class="glyphicon glyphicon-phone"></span>Phone: +00 1515151515</p>
+      <p><span class="glyphicon glyphicon-envelope"></span>Email: mail@mail.com</p> 
+    </div>
+    <div class="col-md-8">
+      <div class="row">
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+        </div>
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+        </div>
+      </div>
+      <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea>
+      <div class="row">
+        <div class="col-md-12 form-group">
+          <button class="btn pull-right" type="submit">Send</button>
+        </div>
+      </div> 
+    </div>
+  </div>
+<div id="googleMap" style="margin-top: 30px"></div>
+
+<!-- Add Google Maps -->
+<script src="http://maps.googleapis.com/maps/api/js"></script>
+<script>
+var myCenter = new google.maps.LatLng(43.4723, -80.5449);
+
+function initialize() {
+var mapProp = {
+center:myCenter,
+zoom:12,
+scrollwheel:false,
+draggable:false,
+mapTypeId:google.maps.MapTypeId.ROADMAP
+};
+
+var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+
+var marker = new google.maps.Marker({
+position:myCenter,
+});
+
+marker.setMap(map);
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
+</script>
 </div>
 
-<div class="video">
-	<h1>Need to insert video</h1>
+<footer class="text-center">
+  <a class="up-arrow" href="#myPage" data-toggle="tooltip" title="TO TOP">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a><br><br>
+  <p>Follow us</p>
+  <div class="container">
+  <ul>
+    <li><a href="http://facebook.com/"><i class="fa fa-facebook"></i></a></li>
+    <li><a href="http://linkedin.com/"><i class="fa fa-linkedin"></i></a></li>
+    <li><a href="http://twitter.com/"><i class="fa fa-twitter"></i></a></li>
+    <li><a href="http://plus.google.com/"><i class="fa fa-google-plus"></i> </a></li>
+</ul>
 </div>
-<div class="Ending">
-	<h1>Insert final information here</h1>
-</div>
+</footer>
+
 </body>
 </html>
