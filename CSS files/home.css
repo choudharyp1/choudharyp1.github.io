@@ -68,7 +68,7 @@ body,html{
 	display: block;
 	margin: 0 auto;
 	margin-top: 200px;
-	transition: 1000ms;		
+	transition: 0.1s;		
 }
 
 #appImage{
@@ -78,7 +78,6 @@ body,html{
 #appstore{
 	height: 70px;
 	position: relative;
-	margin-top: 130px;
 	left: 85%;
 	margin-right: 20px;	
 }
@@ -99,7 +98,6 @@ body,html{
 	}
 	
 	#appstore{
-		left: 70%;
 		height: 50px;
 		
 	}

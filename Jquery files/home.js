@@ -10,10 +10,10 @@ $(document).ready(function(){
 	$("#logo").click(function () {
 	
 	$(this).animate({
-		height: "200px",
+		height: "300px",
 		marginTop: "60px",
 		marginLeft: "20px",
-	});
+	}, 800);
 	$(this).css({"position" : "absolute" })
 	$("nav")
 	.css('opacity', 0)
