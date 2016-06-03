@@ -71,11 +71,16 @@ body,html{
 	transition: 1000ms;		
 }
 
+#appImage{
+	float: right;
+	top: 10%;
+}
+
 #appstore{
 	height: 70px;
-	position: absolute;
+	position: relative;
 	margin-top: 130px;
-	left: 85%;
+	left: 100%;
 	margin-right: 20px;	
 }
 .HOME{
