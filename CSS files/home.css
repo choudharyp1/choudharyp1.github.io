@@ -124,6 +124,20 @@ body,html{
 	height: 600px;
 }
 
+.screenshot{
+		width: 100%;
+}
+
+.row{
+	padding: 30px;
+	
+}
+
+#gallery{
+	background: #2d2d30;
+    color: #bdbdbd;
+}
+
 /* Black buttons with extra padding and without rounded borders */
 .btn {
     padding: 10px 20px;

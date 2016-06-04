@@ -27,6 +27,7 @@ $(document).ready(function(){
 	$("#appstore").removeClass("hidden");
 	$("#mission").removeClass("hidden");
 	$("#video").removeClass("hidden");
+	$("#gallery").removeClass("hidden");
 	$("#contact").removeClass("hidden");
 	
 	setTimeout(function (){
