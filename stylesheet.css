@@ -2,11 +2,6 @@ body,html{
 	height: 100%;
 	margin: 0;
 }
-html, body, form, fieldset, p, div, h1, h2, h3, h4, h5, h6 {
-    margin:0;
-    padding:0;
-    -webkit-text-size-adjust:none;
-}
 
 .HOME{
 	position:relative;
@@ -179,10 +174,6 @@ html, body, form, fieldset, p, div, h1, h2, h3, h4, h5, h6 {
 		position: relative;
 		width: 300px;
 		font-size: 100%;
-	}
-	
-	.IMAGE{
-		background: url(./Images/short.JPG);
 	}
 	
 	.img{
