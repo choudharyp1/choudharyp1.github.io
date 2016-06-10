@@ -41,23 +41,32 @@ body,html{
 
 .subscribe{
 	position: absolute;
-	bottom: 17%;
+	top: 40%;
+	width: 500px;
+	height: 200px;
+	
+}
+
+.subscribe h2{
+	position: relative;
 	width: 440px;
 	color: #EB5757;
 	font-family: times-new-roman;
 	left: 4%;
-	font-size: 150%;
+	font-size: 170%;
 }
 
 .tuned{
-	position: relative;
-	top: 30%;
-	left: 55%;
+	position: absolute;
+	width: 500px;
+	left: 70%;
+	top: 60%;
 }
 
 .tuned h5{
 	color: #EB5757;
 	font-family: times-new-roman;
+	width: 100%;
 	font-size: 150%;
 	position: relative;
 	left: 2%;
@@ -67,10 +76,11 @@ body,html{
 
 /* Black buttons with extra padding and without rounded borders */
 .btns {
-	position: absolute;
-	left: 5%;
-	width: 16%;
-	bottom: 10%;
+	position: relative;
+	margin-top: 10px;
+	margin-left: 8%;
+	width: 80%;
+	height: 30%;
     padding: 10px 20px;
     background-color: #6BA4A8;
 	font-size: 150%;
