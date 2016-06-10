@@ -16,6 +16,14 @@ body,html{
 
 .IMAGE{
 		background: url(./Images/trial.JPG);
+		-webkit-background-size: 100%; 
+		-moz-background-size: 100%; 
+		-o-background-size: 100%; 
+		background-size: 100%; 
+		-webkit-background-size: cover; 
+		-moz-background-size: cover; 
+		-o-background-size: cover; 
+		background-size: cover;
 }
 
 .right {
@@ -146,11 +154,21 @@ body,html{
 }
 
 @media screen and (max-width: 1000px){
-	.IMAGE{
-		background: url(./Images/short.JPG);
-	}
+	
 	.header{
 		position: absolute;
+	}
+	
+	.btns{
+		position: absolute;
+		bottom: 40%;
+		left: 9%;
+		width: 300px;
+	}
+	
+	.img{
+		width: 55%;
+		height: 55%;
 	}
 	.right{
 		right: 1%;
@@ -158,25 +176,26 @@ body,html{
 	}
 	.subscribe{
 		position: absolute;
-		width: 200px;
-		font-size: 120%;
+		width: 400px;
+		top: 43%;
+		font-size: 200%;
 		text-align: center;
 	}
 	.tuned{
 		position: absolute;
-		bottom: 40%;
-		right: 2%;
-		width: 200px;
+		bottom: 12%;
+		right: 20%;
+		width: 500px;
 		text-align: center;
 	}	
 	.media ul{
-		right: 6%;
-		bottom: 10%;
+		right: 30%;
+		bottom: 1%;
 	}
 	
 	.media ul li {
 		list-style-type: none;
-		display: block;
+		display: inline-block;
 		float: center;
 		padding: 15px;
 	}
