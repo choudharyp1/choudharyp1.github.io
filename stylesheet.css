@@ -171,10 +171,9 @@ body,html{
 	}
 	
 	.btns{
-		position: absolute;
-		bottom: 40%;
-		left: 9%;
+		position: relative;
 		width: 300px;
+		font-size: 100%;
 	}
 	
 	.img{
@@ -189,16 +188,19 @@ body,html{
 		position: absolute;
 		width: 400px;
 		top: 43%;
-		font-size: 200%;
+		font-size: 150%;
 		text-align: center;
 	}
 	.tuned{
 		position: absolute;
-		bottom: 12%;
-		right: 20%;
+		top: 82%;
+		left: 35%;
 		width: 500px;
 		text-align: center;
 	}	
+	.tuned h5{
+		left: -30px;
+	}
 	
 	.media ul li {
 		list-style-type: none;
