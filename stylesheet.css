@@ -50,12 +50,17 @@ body,html{
 }
 
 .tuned{
-	position: absolute;
-	bottom: 35%;
-	right: 5%;
+	position: relative;
+	top: 30%;
+	left: 55%;
+}
+
+.tuned h5{
 	color: #EB5757;
 	font-family: times-new-roman;
 	font-size: 150%;
+	position: relative;
+	left: 2%;
 }
 
 
@@ -114,8 +119,6 @@ body,html{
 	list-style-type: none;
 	text-align: center;
 	position: absolute;
-	right:6%;
-	bottom: 25%;
 }
  
 .media ul li {
@@ -186,10 +189,6 @@ body,html{
 		width: 500px;
 		text-align: center;
 	}	
-	.media ul{
-		right: 30%;
-		bottom: 1%;
-	}
 	
 	.media ul li {
 		list-style-type: none;
