@@ -6,77 +6,144 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<!-- Set the page to the width of the device and set the zoon level -->
 	<meta name="viewport" content="width = device-width, initial-scale = 1">
-	<meta name="description" content="Troventi">
-	<meta name="keywords" content= "Troventi, Reliable Selling, Trusted Buying, Textbooks exchange, Buy, Waterloo, Sell books">
-	<meta name="author" content= "Pratik Choudhary">
-	
-	<link href="./fonts/font-awesome.css" rel="stylesheet">
+
+
 	<link rel="stylesheet" href="./bootstrap files/bootstrap.min.css">	
 	<script src="./bootstrap files/jquery.min.js"></script>
 	<script src="./bootstrap files/bootstrap.min.js"></script>
+
+	<title>Pratik Choudhary</title>
 	
 	<link rel="stylesheet" href="./stylesheet.css">	
 	<script src="./script.js"></script>
-	
-	<link rel="shortcut icon" href="./Images/Icon-60.png"/ type="image/png">
-	<title>Troventi</title>
 </head>
 <body>
-	<div class="container-fluid HOME IMAGE">
-		<div class="header">
-		<img class="img" src="./Images/name.jpg" class="img-rounded" width= "30%" height= "30%">
+	<div class="jumbotron">
+		<div class="container info">
+			<h1>Pratik Choudhary</h1>
+			<p>UWaterloo Computer Science Student - Full-Stack Developer</p>
 		</div>
-			<div class="container-fluid">
-			<div class= "container subscribe">
-			<h2><b>Subscribe for Promotions and Information</b></h2>
-			<button class="btns" data-toggle="modal" data-target="#myModal">Sign Up</button>		
-			</div>
-			</div>
-			<div class="modal fade" id="myModal" role="dialog">
-			  <div class="modal-dialog">
-
-				<!-- Modal content-->
-				<div class="modal-content">
-				  <div class="modal-header">
-					<button type="button" class="close" data-dismiss="modal">&times;</button>
-					<h4><span class="glyphicon glyphicon-lock"></span> SIGN UP</h4>
-				  </div>
-				  <div class="modal-body">
-					<form role="form">
-					  <div class="form-group">
-						<label for="psw" style="color: black"><span class="glyphicon glyphicon-user"></span> Full Name</label>
-						<input type="text" class="form-control" id="psw" placeholder="Enter Name">
-					  </div>
-					  <div class="form-group">
-						<label for="usrname" style="color: black"><span class="glyphicon glyphicon-envelope"></span> Send To</label>
-						<input type="text" class="form-control" id="usrname" placeholder="Enter email">
-					  </div>
-					  <button type="submit" class="btn btn-block">Sign Up 
-						<span class="glyphicon glyphicon-ok"></span>
-					  </button>
-					</form>
-				  </div>
-				  <div class="modal-footer">
-					<button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal">
-					  <span class="glyphicon glyphicon-remove"></span> Cancel
-					</button>
-				  </div>
-				</div>
-			  </div>
-			</div>
-			<div class = "container-fluid">
-			<div class="container tuned">
-				<h5><b>Marketplace coming soon, stay tuned</b></h5>
+	</div>
+	<div class="text container">
+		<div class="col-xs-8" style="border-right:2px solid black">
 			
-			<div class="media container">
-			  <ul>
-				<li><a href="http://facebook.com/"><i class="fa fa-facebook"></i></a></li>
-				<li><a href="http://linkedin.com/"><i class="fa fa-linkedin"></i></a></li>
-				<li><a href="http://twitter.com/"><i class="fa fa-twitter"></i></a></li>
-			  </ul>	
+			<div class="startups">
+				<h3 style="text-align:left; font-family:serif; font-weight:bold;">Startups</h3>
+
+
+				<h4 style="padding-top:20px;"><a href="http://troventi.com/"><u>Troventi</u></a></h4>
+				<p>Full-Stack Developer, March 2016 - Present</p>
+				<ul>
+					<li>Creating the Troventi Website.</li>
+					<li>Designing and constructing an API for the App and the Website using <b>Python Flask.</b></li>
+					<li>Working with AWS EC2 servers, API Gateway, AWS Lambda function and the Elastic Beanstalk Application.</li>
+				</ul>
+
+				<h4 style="padding-top:20px;"><a href=""><u>FoodApp</u></a></h4>
+				<p>Front-End Developer, June 2016 - Present</p>
+				<ul>
+					<li>Creating Application using <b>PhoneGap</b>.</li>
+					<li>The app is responsive and compatible to all touch-screen mobile devices.</li>
+				</ul>
 			</div>
+
+			<div class="projects">
+				<h3 style="text-align:left; font-family:serif; font-weight:bold;">Projects</h3>
+
+				<h4 style="padding-top:20px;"><a href="https://github.com/pc-isthebest/Chess-Application"><u>Chess Puzzle Application</u></a></h4>
+				<p>Java Application, January 2015</p>
+				<ul>
+					<li>Used a Chess Library called <b>chesspresso</b>. It is a Java library.</li>
+					<li>This application allows Users to Create, Solve and Edit chess puzzles using a GUI.</li>
+					<li>Created an algorithm that parsed <b>Forsyth–Edwards Notation (FEN)</b> and use it to display the position on the chessboard.</li>
+				</ul>
+
+				<h4 style="padding-top:20px;"><a href="https://github.com/pc-isthebest/Equation-Solver"><u>Equation Solver</u></a></h4>
+				<p>Java Application, February 2016</p>
+				<ul>
+					<li>It can solve all <b>n x n</b> systems of equations.</li>
+					<li>It converts a systems of equation to <b>RREF format</b>.</li>
+					<li>It either finds solutions for an RREF or returns no solutions or infinite solution given a systems of equations.</li>
+				</ul>
+
+				<h4 style="padding-top:20px;"><a href="https://github.com/pc-isthebest/Combs-functions"><u>N-Queens Problem and Knights Tour</u></a></h4>
+				<p>Racket/Scheme Application, April 2016</p>
+				<ul>
+					<li>Uses a simple algorithm that I created called <b>comb</b> function, that finds all possible combinations in a list.</li>
+					<li>Made alterations to that code that allows solving the N-Queens problem. Finds all <b>92 solutions</b> for 8-Queens in <b>1 second</b>.</li>
+					<li>It calculates all Knight's tour for a <b>3 by 4</b> chessboard in less than <b>1 second</b>.</li>
+				</ul>
+
+				<h4 style="padding-top:20px;"><a href="https://github.com/pc-isthebest/TicTacToeMinimax"><u>Tic Tac Toe Algorithm</u></a></h4>
+				<p>C Application, April 2016</p>
+				<ul>
+					<li>Made a Minimax Algorithm. It creates a perfect TicTacToe Player.</li>
+					<li>The Computer, being the perfect TicTacToe player, cannot be beaten. It only wins or draws.</li>
+				</ul>
+
+				<h4 style="padding-top:20px;"><a href="https://github.com/pc-isthebest/BTrees"><u>B-Trees</u></a></h4>
+				<p>Java Application, August 2014</p>
+				<ul>
+					<li>Implemented B-Trees using Java.</li>
+					<li>Wrote the Add and Search Functions.</li>
+				</ul>
+
 			</div>
+
+			<div class="internships">
+				<h3 style="text-align:left; font-family:serif; font-weight:bold;">Internships</h3>
+
+
+				<h4 style="padding-top:20px;"><a href="http://www.hdisystech.com/"><u>HDI Systech</u></a></h4>
+				<p>On Job Training (OJT) Intern, May-June 2016</p>
+				<ul>
+					<li>Created and configured AWS E2 Instances for clients.</li>
+					<li>Configured Firewalls and worked on Port-Forwarding</li>
+					<li>Skills Acquired on Job: MySQL, PHP and the Laravel Framework.</li>
+				</ul>
+
+				<h4 style="padding-top:20px;"><a href="http://www.ggnet.com/"><u>GG Network</u></a></h4>
+				<p>On Job Training (OJT) Intern, June 2013</p>
+				<ul>
+					<li>Created a Slot Machine Game using <b>HTML</b>, <b>CSS</b>, and <b>JavaScript</b>.</li>
+					<li>Launched a website for a client using FTP.</li>
+					<li>Was introduced to Github.</li>
+				</ul>
 			</div>
+			<div style="height: 50px;"></div>			
+		</div>
+		<div class="col-xs-4">
+			<h3 style="text-align:left; font-family:serif; font-weight:bold;">About</h3>
+			<p>Enthusiastic Front-end and Back-end developer with a passion for developing algorithms and a desire to learn new concepts and skills in Computer Science.</p>
+
+			<h3 style="text-align:left; font-family:serif; font-weight:bold;">Languages/Skills</h3>
+			<ul>
+				<li>Experience in Java, Python(Flask), PHP(Laravel), C/C++, HTML, CSS, JS, Racket/Scheme, Git, AWS, MySQL, Ubuntu bash, GNU Octave, Logger Pro, and RobotC.</li>
+				<li>Advanced skills in creating graphs and analyzing data using Logger Pro and Microsoft Office.</li>
+				<li>Experienced Researcher. Wrote papers in Computer Science and lab reports in Physics and Environmental Science.</li>
+				<li>Fluent in English, Hindi and Filipino(Tagalog). Also knows French, Bengali and Spanish.</li>
+				<li>Semi-Pro Table Tennis Player and HighSchool Chess Club President.</li>
+				<li>Community service worker</li>
+				<li>Desire to develop algorithms and applications that would help the common people.</li>
+			</ul>
+
+			<h3 style="text-align:left; font-family:serif; font-weight:bold;">Certifications</h3>
+			<ul>
+				<li>International Baccalaureate (IB) <b>40 points</b> with <b>7</b> in IB Math HL and <b>100%</b> in the Extended Essay on Computer Science.</li>
+				<li>Completed Machine Learning Course from Stanford, taught by Professor Andrew Ng, with a grade of <b>95.7%</b></li>
+			</ul>
+
+			<h3 style="text-align:left; font-family:serif; font-weight:bold;">Leardership/Teamwork</h3>
+			<ul>
+				<li>Led a Team to the VEX 2013 Robotics Competition in Taipei. Builded and designed the Robot. Won <b>3rd place</b> in the Robot Driving Competition.</li>
+				<li>High School Table Tennis Team Captain, four years in row. Won <b>Silver</b> in Interschool Competition.</li>
+				<li>HighSchool Chess Club President. Initiated the <b>first ever</b> Interscholastic Association of Southeast Asian School (ISASAS)Online Chess Competition.</li>
+				<li>First Year University of Waterloo Village 1 Resident Council Member</li>
+				<li>Computer Science Club Member, University of Waterloo</li>
+				<li>Took Part in Multiple Community Service events in the Philippines. Activities included building furnitures and teaching Math and Computer to under-priviledged children.</li>
+			</ul>
+
+		</div>
 	</div>
 </body>
 
